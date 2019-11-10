@@ -58,6 +58,7 @@ def run(UR,resF):
         f.close()
         print(res)
         sleep(5)
+        
 def ch(i,res,resF):
     if not i == 1:
         if res == resF or res == "<p>The article you were looking for was not found, but maybe try looking again!</p>" :
